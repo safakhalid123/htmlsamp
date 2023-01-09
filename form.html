@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: aqua;
+        padding: 1%;
+        
+    }
+    h3{
+      text-align: center;
+    }
+   
+   label.X1{
+      width: 50;
+      margin: auto;
+    }
+    option{
+      display: inline;
+    }
+
+</style>
+<body>
+    <h1>Survey Form</h1>
+    <h3>Let us know how we can improve freecodeCamp</h3>
+  <form>
+       <p><label for="Name" class="X1">Name:</label>
+        <input type="text" placeholder="Enter your name" id="Name" name="Name"><br></p>
+       <p><label for="email">Email:</label>
+        <input type="email" placeholder="Enter your Email" id="email" name="email"><br></p>
+      <p><label for="num">Age:</label>
+        <input type="number" placeholder="Enter your Age" id="num" name="num"><br></p>
+      <label for="choose">Which option best describes your current role:</label>
+       
+        <select id="choose">
+            <option value="Employee">Employee</option>
+            <option value="Intern">Intern</option>
+            <option value="Graduate">Graduate</option>
+           
+        </select>
+          <br>
+         <p><label for="recommend">*How likely is that to you would recommend freecodeCamp to a friend?:</label><br>
+         <input type="radio" id="" name="fav_language" value="Definitely">
+        <label for="Definitely">Definitely</label><br>
+        <input type="radio" id="Maybe" name="fav_language" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+        <input type="radio" id="Notsure" name="fav_language" value="Notsure">
+        <label for="Notsure">Notsure</label><br></p>
+        <label for="HCC">What do you like most in HCC:</label>
+        <select id="HCC">
+          <option value="Select an option">Select an option</option>
+        </select>
+       <p><label for="Projects">Things that should be improved in the future check all that apply:</label></p>
+       <input type="checkbox" id="Projects1" name="Projects1" value="Front">
+      <label for="Projects1">Front-end Projects</label><br>
+      <input type="checkbox" id="Projects2" name="Projects2" value="back">
+      <label for="Projects2">Back-end projects</label><br>
+      <input type="checkbox" id="Projects3" name="Projects3" value="data">
+      <label for="Projects3">Data Visualization</label><br>
+
+
+
+        
+
+
+          
+
+        
+        
+
+
+
+        
+
+     </form>
+
+</body>
+</html>
